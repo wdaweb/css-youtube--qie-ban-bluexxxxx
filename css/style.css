@@ -1,0 +1,134 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+#navbar {
+  background-color: #000;
+  color: white;
+  overflow: hidden;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+#navbar .logo,
+#navbar .menu,
+#navbar .search {
+  line-height: 40px;
+}
+
+#navbar .logo {
+  float: left;
+}
+
+#navbar .logo a {
+  text-decoration: none;
+  display: block;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+
+#navbar .search {
+  float: left;
+  margin-left:400px ;
+  padding: 1rem;
+  font-size: 0;
+}
+
+#navbar .search input,
+#navbar .search button {
+  font-size: 1rem;
+  appearance: none;
+  border: none;
+  vertical-align: middle;
+}
+
+#navbar .search input {
+  width: 400px;
+  height: 40px;
+}
+
+#navbar .search button {
+  width: 50px;
+  height: 40px;
+}
+
+#navbar .header-right{
+  float: right;
+  padding: 1rem;
+  line-height: 40px;
+}
+
+.fa-youtube,
+.fa-ellipsis-vertical,
+.fa-user{
+  margin-left: 2.5rem;
+  color: silver;
+}
+
+.menu{
+  position: fixed;
+  width: 100px;
+  left: 0;
+  bottom: 0;
+  top: 72px;
+  background: #333;
+  color: white;
+  padding-top: 1rem;
+}
+
+.container2 {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+#product {
+  padding: 4rem 0;
+}
+
+#product .title {
+  text-align: center;
+}
+
+#product .row .col {
+  width: 20%;
+  height:300px;
+  padding: 1rem;
+  float: left;
+}
+
+#product .card {
+  padding: 1rem;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+img {
+  width: 100%;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
